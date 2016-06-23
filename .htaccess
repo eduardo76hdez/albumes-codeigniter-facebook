@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteBase /albumes/
+
+#Ocultar el index.php
+RewriteCond $1 !^((.*)\.php|sitemap\.xml|robots\.txt|assets)
+RewriteRule ^(.*)$ index.php?/$1 [L]

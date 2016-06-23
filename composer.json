@@ -1,0 +1,22 @@
+{
+    "name": "eduardo.hernandez/albumes",
+    "license": "proprietary",
+    "type": "project",
+    "require": {
+        "facebook/php-sdk-v4": "5.2.0",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "require-dev": {
+    },
+    "scripts": {
+        "post-install-cmd": [
+        ],
+        "post-update-cmd": [
+        ]
+    },
+    "extra": {
+    },
+    "config": {
+        "vendor-dir": "application/third_party"
+    }
+}
